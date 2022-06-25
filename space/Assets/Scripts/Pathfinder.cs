@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Pathfinder : MonoBehaviour
 {
+    
     EnemySpawner enemySpawner;
     WaveConfigSO waveConfig;
     List<Transform> waypoints;
@@ -44,5 +45,3 @@ public class Pathfinder : MonoBehaviour
         }
     }
 }
-
-
