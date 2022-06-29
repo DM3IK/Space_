@@ -354,6 +354,7 @@
 "Assets/Scripts/Shooter.cs"
 "Assets/Scripts/SpriteScroller.cs"
 "Assets/Scripts/UIDisplay.cs"
+"Assets/Scripts/UIGameOver.cs"
 "Assets/Scripts/WaveConfigSO.cs"
 -langversion:8.0
 
