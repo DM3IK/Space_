@@ -347,6 +347,7 @@
 "Assets/Scripts/DamageDealer.cs"
 "Assets/Scripts/EnemySpawner.cs"
 "Assets/Scripts/Health.cs"
+"Assets/Scripts/LevelManager.cs"
 "Assets/Scripts/Pathfinder.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/ScoreKeeper.cs"

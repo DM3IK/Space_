@@ -318,6 +318,74 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1297fbc696a62714b9303f20414c9d76, type: 3}
+--- !u!1001 &409551052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1941419583376887086, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941419583376887086, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 125.81529
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941419583376887086, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 139.1694
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941419583376887086, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.2837472
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941419583376887086, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941419583376887086, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941419583376887086, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941419583376887086, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941419583376887086, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941419583376887086, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941419583376887086, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1941419583376887088, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+      propertyPath: m_Name
+      value: LevelManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+--- !u!114 &409551053 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1941419583376887087, guid: 22c4acb03ab5e664fa70dae0afe1911f, type: 3}
+  m_PrefabInstance: {fileID: 409551052}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bafc7805b7e49f4ea4592189894f09b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &479909019
 GameObject:
   m_ObjectHideFlags: 0
@@ -534,7 +602,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 544168063}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 409551053}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: LoadMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &544168063
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1003,7 +1083,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1107155659}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 409551053}
+        m_TargetAssemblyTypeName: LevelManager, Assembly-CSharp
+        m_MethodName: LoadGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1107155659
 MonoBehaviour:
   m_ObjectHideFlags: 0
