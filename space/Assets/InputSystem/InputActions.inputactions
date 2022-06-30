@@ -165,6 +165,17 @@
                 },
                 {
                     "name": "",
+                    "id": "dd72031d-8b03-4167-a37c-f6fb94e57bcd",
+                    "path": "<Touchscreen>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Touch",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "c1f7a91b-d0fd-4a62-997e-7fb9b69bf235",
                     "path": "<Gamepad>/rightStick",
                     "interactions": "",
@@ -221,7 +232,7 @@
                 {
                     "name": "",
                     "id": "886e731e-7071-4ae4-95c0-e61739dad6fd",
-                    "path": "<Touchscreen>/primaryTouch/tap",
+                    "path": "<Touchscreen>/pressure",
                     "interactions": "",
                     "processors": "",
                     "groups": ";Touch",
