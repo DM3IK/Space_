@@ -451,7 +451,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.990566, g: 0.90660393, b: 0, a: 1}
+  m_Color: {r: 0.6226415, g: 0.022946024, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -863,7 +863,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.754717, g: 0.052687764, b: 0.052687764, a: 1}
+  m_Color: {r: 0.11042895, g: 0.5660378, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -940,7 +940,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.26569062, g: 0.9433962, b: 0.030259816, a: 0.392}
+  m_Color: {r: 0, g: 0.16159965, b: 0.4056604, a: 0.392}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1021,7 +1021,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 1df2b635688aa3a499f26af9ca3e5515, type: 2}
   - {fileID: 11400000, guid: 17d575cf373e33d409c56b4933e84ff8, type: 2}
   - {fileID: 11400000, guid: 964716e86a0bcb64f868b472dd25f65f, type: 2}
-  timeBetweenWaves: 0.5
+  timeBetweenWaves: 1.5
   isLooping: 1
 --- !u!1 &1823226876
 GameObject:
