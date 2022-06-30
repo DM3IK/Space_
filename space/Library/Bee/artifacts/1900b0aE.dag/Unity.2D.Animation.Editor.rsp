@@ -311,6 +311,7 @@
 -r:"D:/Programmi/Unity 2021.1.26f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll"
 -r:"D:/Programmi/Unity 2021.1.26f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll"
 -r:"D:/Programmi/Unity 2021.1.26f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll"
+-r:"D:/Programmi/Unity 2021.1.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
 -r:"D:/Programmi/Unity 2021.1.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Unity.2D.Animation.Triangle.Runtime.ref.dll"

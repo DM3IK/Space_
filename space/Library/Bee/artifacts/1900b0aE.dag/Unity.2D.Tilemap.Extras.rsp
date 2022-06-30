@@ -309,6 +309,7 @@
 -r:"D:/Programmi/Unity 2021.1.26f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll"
 -r:"D:/Programmi/Unity 2021.1.26f1/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll"
 -r:"D:/Programmi/Unity 2021.1.26f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
+-r:"D:/Programmi/Unity 2021.1.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll"
 -r:"D:/Programmi/Unity 2021.1.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEditor.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
