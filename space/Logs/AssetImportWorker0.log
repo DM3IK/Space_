@@ -15,11 +15,11 @@ C:/Users/ivarl/Desktop/Nuovo progetto/space
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-56367
+59170
 Successfully changed project path to: C:/Users/ivarl/Desktop/Nuovo progetto/space
 C:/Users/ivarl/Desktop/Nuovo progetto/space
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 99.84 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 117.32 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.26f1 (6f076387c01d)
 [Subsystems] Discovering subsystems at path D:/Programmi/Unity 2021.1.26f1/Editor/Data/Resources/UnitySubsystems
@@ -35,91 +35,91 @@ Initialize mono
 Mono path[0] = 'D:/Programmi/Unity 2021.1.26f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Programmi/Unity 2021.1.26f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Programmi/Unity 2021.1.26f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56752
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56104
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Programmi/Unity 2021.1.26f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000894 seconds.
+Registered in 0.000876 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 99.12 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 104.38 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.816 seconds
+- Completed reload, in  0.824 seconds
 Domain Reload Profiling:
-	ReloadAssembly (817ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (824ms)
+		BeginReloadAssembly (52ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (444ms)
-			LoadAssemblies (52ms)
+		EndReloadAssembly (442ms)
+			LoadAssemblies (51ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (143ms)
+			SetupTypeCache (142ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (238ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (236ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (99ms)
+				RefreshPlugins (104ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (106ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				ProcessInitializeOnLoadAttributes (100ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006619 seconds.
+Registered in 0.006296 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\ivarl\Desktop\Nuovo progetto\space\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\ivarl\Desktop\Nuovo progetto\space\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 101.55 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 98.81 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.168 seconds
+- Completed reload, in  1.284 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1169ms)
-		BeginReloadAssembly (130ms)
+	ReloadAssembly (1285ms)
+		BeginReloadAssembly (200ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (988ms)
-			LoadAssemblies (99ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1036ms)
+			LoadAssemblies (96ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (328ms)
+			SetupTypeCache (402ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (437ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (414ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (102ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (17ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (16ms)
 				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.74 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4094 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 152.8 MB.
 System memory in use after: 153.0 MB.
 
 Unloading 34 unused Assets to reduce memory usage. Loaded Objects now: 4543.
-Total: 3.390100 ms (FindLiveObjects: 0.297300 ms CreateObjectMapping: 0.228100 ms MarkObjects: 2.802100 ms  DeleteObjects: 0.061700 ms)
+Total: 3.123500 ms (FindLiveObjects: 0.283200 ms CreateObjectMapping: 0.195700 ms MarkObjects: 2.587700 ms  DeleteObjects: 0.056300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,25 +133,169 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Prefabs/LevelManager.prefab
-  artifactKey: Guid(22c4acb03ab5e664fa70dae0afe1911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/LevelManager.prefab using Guid(22c4acb03ab5e664fa70dae0afe1911f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba278330c91fa1eff7698e933c7a7e90') in 0.041065 seconds 
+  path: Assets/assert base/melted_monster/Melted Monster.ttf
+  artifactKey: Guid(0f09195cfaea28a4b9227f5cbe6c81c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/melted_monster/Melted Monster.ttf using Guid(0f09195cfaea28a4b9227f5cbe6c81c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5418da3a266cc9750b38e04e51dd6bf7') in 0.106250 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Prefabs/ScoreKeeper.prefab
-  artifactKey: Guid(1a1abaf579e75264c9bd29b8492daeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/ScoreKeeper.prefab using Guid(1a1abaf579e75264c9bd29b8492daeff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3503fca3cdb51625cf647e94a3d2efdc') in 0.006750 seconds 
+  Time since last request: 0.000163 seconds.
+  path: Assets/assert base/melted_monster/Melted Monster SDF.asset
+  artifactKey: Guid(fae5a4dbd6c04d4449b49b2c4212a420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/melted_monster/Melted Monster SDF.asset using Guid(fae5a4dbd6c04d4449b49b2c4212a420) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1e351beeb3d810cc36b1cfb72da6f2d') in 0.040055 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/Prefabs/Background.prefab
-  artifactKey: Guid(481909464a6662743a4df172501042c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/Background.prefab using Guid(481909464a6662743a4df172501042c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31bb9f10d1109d4d0dee7674381e1273') in 0.104753 seconds 
+  Time since last request: 3.122094 seconds.
+  path: Assets/assert base/neon_led_light/NEONLEDLight SDF.asset
+  artifactKey: Guid(9f1e548db5a828b479754c3dee9c4eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/neon_led_light/NEONLEDLight SDF.asset using Guid(9f1e548db5a828b479754c3dee9c4eae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ee68f0dbe81342f68a5e175bd9f37fc') in 0.081993 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Prefabs/AudioPlayer.prefab
-  artifactKey: Guid(1297fbc696a62714b9303f20414c9d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/AudioPlayer.prefab using Guid(1297fbc696a62714b9303f20414c9d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e02768a822ba6922a4fc085fbff934') in 0.006625 seconds 
+  Time since last request: 0.000151 seconds.
+  path: Assets/assert base/neon_led_light/NEONLEDLight.otf
+  artifactKey: Guid(9bd673ec2fdb1e84b8e66c50ee6bf754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/neon_led_light/NEONLEDLight.otf using Guid(9bd673ec2fdb1e84b8e66c50ee6bf754) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d9f25d6c53aaa02db5da0e570232618') in 0.013013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.318239 seconds.
+  path: Assets/InputSystem/InputActions.inputactions
+  artifactKey: Guid(ce14aa5e357136b44bd654efd456fb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/InputActions.inputactions using Guid(ce14aa5e357136b44bd654efd456fb94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '707958aa462417ac9c2c68527f554fa8') in 0.014197 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/InputSystem/InputSystem.inputsettings.asset
+  artifactKey: Guid(6424c8b2b156bb7408e7cde054d17efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/InputSystem/InputSystem.inputsettings.asset using Guid(6424c8b2b156bb7408e7cde054d17efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6eefd2e7e49762314d01163aed90a0e') in 0.006569 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.131718 seconds.
+  path: Assets/assert base/PNG/Enemies
+  artifactKey: Guid(09cedd88ae3919f419877a4f406b819b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies using Guid(09cedd88ae3919f419877a4f406b819b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7b1cd383cf064365bef781eb5de9edf') in 0.005892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.077583 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyBlack1.png
+  artifactKey: Guid(f89a85135a491884ab55d08b79ec3c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyBlack1.png using Guid(f89a85135a491884ab55d08b79ec3c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eafe2a0d905d7975b61053c017a0194') in 0.063217 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyGreen1.png
+  artifactKey: Guid(10416130c6fe0c9469f88f99c8be8c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyGreen1.png using Guid(10416130c6fe0c9469f88f99c8be8c2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78aebee54e50202219d41974e20effac') in 0.018527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000155 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyGreen4.png
+  artifactKey: Guid(edfaddf561252f040ad82704858b0384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyGreen4.png using Guid(edfaddf561252f040ad82704858b0384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc8d8fe32d7f7b207a8d776289394f8f') in 0.016771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyGreen5.png
+  artifactKey: Guid(2e13e251c5a1a044cb4333230542b0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyGreen5.png using Guid(2e13e251c5a1a044cb4333230542b0f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aee2fdfe1dd3a6d448feda6aff69468') in 0.020548 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000134 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyBlack4.png
+  artifactKey: Guid(1d3a5001851d0124d8c2daf6772c19cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyBlack4.png using Guid(1d3a5001851d0124d8c2daf6772c19cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd27fd46edaf872496d61cf364bfc67') in 0.017018 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000150 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyRed5.png
+  artifactKey: Guid(b1d7e8150c849df4a97da095594cde8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyRed5.png using Guid(b1d7e8150c849df4a97da095594cde8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbe3f896961e26a619e8d3533b358945') in 0.015527 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000141 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyBlue3.png
+  artifactKey: Guid(3e540d959fb3edd46a08196908aa32f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyBlue3.png using Guid(3e540d959fb3edd46a08196908aa32f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a9eaed4aa7e88b148f9e4cd9539fa5') in 0.020323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyBlue5.png
+  artifactKey: Guid(8c9ef5b93e7bf5e4b9754312650a4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyBlue5.png using Guid(8c9ef5b93e7bf5e4b9754312650a4ab3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fab6b0109789bb952d68344ec303ccb4') in 0.017787 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyBlack3.png
+  artifactKey: Guid(5b97ef19219c3974f8a0a371621c6e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyBlack3.png using Guid(5b97ef19219c3974f8a0a371621c6e9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7640626f2300f5ebe5fa2fec46a9d881') in 0.020078 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyBlack2.png
+  artifactKey: Guid(a2d2fca8bf33dd64e97a429c4770d3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyBlack2.png using Guid(a2d2fca8bf33dd64e97a429c4770d3cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa7402100487ab52e111eb8c469c3eda') in 0.017843 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyRed1.png
+  artifactKey: Guid(a6635328a114fc34384e788234c757b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyRed1.png using Guid(a6635328a114fc34384e788234c757b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ed1ec7e0ca628c4ebd522fc5644671e') in 0.016565 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyRed4.png
+  artifactKey: Guid(9b19f8913b535344db30d76c78b9edc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyRed4.png using Guid(9b19f8913b535344db30d76c78b9edc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87617e0cbd05002f26d3557c21ee669b') in 0.019165 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000130 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyBlue2.png
+  artifactKey: Guid(c377a64cf059dae4eaf8ec297a725075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyBlue2.png using Guid(c377a64cf059dae4eaf8ec297a725075) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da8b268aad4f3e33cfde1cb648bd5e2') in 0.017562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyBlue4.png
+  artifactKey: Guid(f6114fde8ff36fb4395f66c497dbd3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyBlue4.png using Guid(f6114fde8ff36fb4395f66c497dbd3bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7e63bbab5c86f8040635249d957a2e') in 0.015139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyBlue1.png
+  artifactKey: Guid(0344067a28aa632459292c32488b4c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyBlue1.png using Guid(0344067a28aa632459292c32488b4c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2c5e3bd071a278c231742f479649560') in 0.015834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyGreen3.png
+  artifactKey: Guid(8d16b10ef730eb24b939676d454c9f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyGreen3.png using Guid(8d16b10ef730eb24b939676d454c9f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25d25039df2eb2ecbb34e5287646838') in 0.015776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyRed3.png
+  artifactKey: Guid(4989896823914e14192027f4034b2ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyRed3.png using Guid(4989896823914e14192027f4034b2ae4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d3d0ba31f04dd6715871fa70a96182') in 0.018945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyRed2.png
+  artifactKey: Guid(5768b19da1493ed468905b1d29cb0c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyRed2.png using Guid(5768b19da1493ed468905b1d29cb0c0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682d9a5ff89848bd7c2001e87d5f7347') in 0.021568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyBlack5.png
+  artifactKey: Guid(5fc01f9b6d7533b4c9503c5c2eaf02c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyBlack5.png using Guid(5fc01f9b6d7533b4c9503c5c2eaf02c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a2842c79e570f011629e8661c83538') in 0.019270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/assert base/PNG/Enemies/enemyGreen2.png
+  artifactKey: Guid(22e8fa291af972f45955822930817cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/assert base/PNG/Enemies/enemyGreen2.png using Guid(22e8fa291af972f45955822930817cfe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe4e8ae863d9203a7933e79bde2f5e3') in 0.019136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.435101 seconds.
+  path: Assets/Prefabs/Enemy Boss.prefab
+  artifactKey: Guid(128bd86a333b446498b51220bd456d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Enemy Boss.prefab using Guid(128bd86a333b446498b51220bd456d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f18b60ceb956a19ce2e5773106518bda') in 0.024924 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
