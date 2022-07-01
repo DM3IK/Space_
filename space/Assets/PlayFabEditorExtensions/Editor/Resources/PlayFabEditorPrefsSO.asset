@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d0199c11aa6f514784c5c69cd8378d8, type: 3}
+  m_Name: PlayFabEditorPrefsSO
+  m_EditorClassIdentifier: 
+  DevAccountEmail: spacewar2022@gmail.com
+  DevAccountToken: 4mcsa6oanyakyjikbonzup5gb95rp33nrcridair9ogf34nr64jwyzgyaked8fcedggi8dd6mj37qdtzz1z8jogsc6uxbff4g6a8fab9ash7i11a9qk9apf5k7ecobowija9afaakm759qzucprhunbgzm84y6syaz4c8ay194s7gtutkzcyrxrq8e9wdqhryij1saph
+  SelectedStudio: My Game Studio
+  SdkPath: Assets/PlayFabSDK
+  EdExPath: 
+  LocalCloudScriptPath: 
+  PanelIsShown: 0
+  curMainMenuIdx: 1
+  curSubMenuIdx: 0
