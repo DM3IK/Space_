@@ -99,6 +99,7 @@
 -define:ENABLE_TILEMAP
 -define:ENABLE_TIMELINE
 -define:ENABLE_INPUT_SYSTEM
+-define:ENABLE_LEGACY_INPUT_MANAGER
 -define:CSHARP_7_OR_LATER
 -define:CSHARP_7_3_OR_NEWER
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll"
@@ -280,6 +281,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2021.1.26f1/Editor/Data/PlaybackEngines/AndroidPlayer/Variations/mono/Managed/UnityEngine.XRModule.dll"
 -r:"C:/Users/vasil/Documents/GitHub/Space_/space/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/AOT/Newtonsoft.Json.dll"
 -r:"C:/Users/vasil/Documents/GitHub/Space_/space/Library/PackageCache/com.unity.visualscripting@1.6.1/Runtime/VisualScripting.Flow/Dependencies/NCalc/Unity.VisualScripting.Antlr3.Runtime.dll"
+-r:"Library/Bee/artifacts/1300b0aP.dag/PlayFab.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.2D.Animation.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.2D.Animation.Triangle.Runtime.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.2D.Common.Runtime.ref.dll"
@@ -296,6 +298,7 @@
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.Flow.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/Unity.VisualScripting.State.ref.dll"
 -r:"Library/Bee/artifacts/1300b0aP.dag/UnityEngine.UI.ref.dll"
+"Assets/ChangeInput.cs"
 "Assets/Scripts/AudioPlayer.cs"
 "Assets/Scripts/CameraShake.cs"
 "Assets/Scripts/DamageDealer.cs"
@@ -304,6 +307,7 @@
 "Assets/Scripts/LevelManager.cs"
 "Assets/Scripts/Pathfinder.cs"
 "Assets/Scripts/Player.cs"
+"Assets/Scripts/PlayFabManager.cs"
 "Assets/Scripts/ScoreKeeper.cs"
 "Assets/Scripts/Shooter.cs"
 "Assets/Scripts/SpriteScroller.cs"

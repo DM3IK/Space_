@@ -12,7 +12,11 @@ public class LevelManager : MonoBehaviour
     {
         scoreKeeper = FindObjectOfType<ScoreKeeper>();
     }
-
+    public void LoadLogin()
+    {
+        
+        SceneManager.LoadScene("Login");
+    }
     public void LoadGame()
     {
         scoreKeeper.ResetScore();
@@ -27,6 +31,7 @@ public class LevelManager : MonoBehaviour
     public void LoadGameOver()
     {
         StartCoroutine(WaitAndLoad("GameOver", sceneLoadDelay));
+        
     }
 
     public void QuitGame()

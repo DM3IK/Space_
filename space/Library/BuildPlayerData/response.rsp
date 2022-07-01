@@ -5,6 +5,7 @@
 -a="C:\Users\vasil\Documents\GitHub\Space_\space\Library\PlayerScriptAssemblies\UnityEngine.TestRunner.dll"
 -a="C:\Users\vasil\Documents\GitHub\Space_\space\Library\PlayerScriptAssemblies\Unity.Timeline.dll"
 -a="C:\Users\vasil\Documents\GitHub\Space_\space\Library\PlayerScriptAssemblies\Unity.TextMeshPro.dll"
+-a="C:\Users\vasil\Documents\GitHub\Space_\space\Library\PlayerScriptAssemblies\PlayFab.dll"
 -a="C:\Users\vasil\Documents\GitHub\Space_\space\Library\PlayerScriptAssemblies\Unity.VisualScripting.Flow.dll"
 -a="C:\Users\vasil\Documents\GitHub\Space_\space\Library\PlayerScriptAssemblies\Unity.InputSystem.dll"
 -a="C:\Users\vasil\Documents\GitHub\Space_\space\Library\PlayerScriptAssemblies\UnityEngine.UI.dll"
