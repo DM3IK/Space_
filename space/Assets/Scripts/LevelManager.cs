@@ -15,7 +15,7 @@ public class LevelManager : MonoBehaviour
     public void LoadLogin()
     {
         
-        SceneManager.LoadScene("Login");
+        SceneManager.LoadScene(0);
     }
     public void LoadGame()
     {

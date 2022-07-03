@@ -42,6 +42,7 @@ ScriptsOnlyBuild:
     - UnityEngine.InputSystem.InputActionReference
     - UnityEngine.InputSystem.InputSettings
     - UnityEngine.InputSystem.InputSystemObject
+    - UnityEngine.InputSystem.OnScreen.OnScreenStick
     - UnityEngine.InputSystem.PlayerInput
     - UnityEngine.InputSystem.RemoteInputPlayerConnection
     - UnityEngine.InputSystem.UI.InputSystemUIInputModule
@@ -122,6 +123,8 @@ ScriptsOnlyBuild:
       Script: {instanceID: 4332}
     - Class: 114
       Script: {instanceID: 4996}
+    - Class: 114
+      Script: {instanceID: 5096}
     - Class: 114
       Script: {instanceID: 5474}
     - Class: 114
@@ -1582,4 +1585,4 @@ ScriptsOnlyBuild:
   - Assets/Scenes/MainMenu.unity
   - Assets/Scenes/Game.unity
   - Assets/Scenes/GameOver.unity
-  playerPath: C:/Users/vasil/Desktop/ddd.apk
+  playerPath: C:/Users/vasil/Desktop/space.war.apk

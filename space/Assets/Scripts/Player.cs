@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
     {
         if (shooter != null)
         {
-            shooter.isFiring = value.isPressed;
+            shooter.isFiring = true;
         }
     }
 }

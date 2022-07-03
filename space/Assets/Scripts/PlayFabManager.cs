@@ -18,7 +18,7 @@ public class PlayFabManager : MonoBehaviour
     {
         if (passwordInput.text.Length <6)
         {
-            messageText.text = "password troppo corta";
+            messageText.text = "Password too short!";
             return;
         }
         var request = new RegisterPlayFabUserRequest
@@ -31,7 +31,7 @@ public class PlayFabManager : MonoBehaviour
     }
     void OnRegisterSuccess(RegisterPlayFabUserResult result)
     {
-        messageText.text = "registrato e loggato!";
+        messageText.text = "Registered and logged in!";
     }
 
     public void LoginButton()
@@ -75,6 +75,10 @@ public class PlayFabManager : MonoBehaviour
         {
            CustomId = SystemInfo.deviceUniqueIdentifier,
            CreateAccount = true
+         //  InfoRequestParameters = new GetPlayerCombinedInfoRequestParams
+          // {
+          //     GetPlayerProfile = true
+         //  }
         };
         PlayFabClientAPI.LoginWithCustomID(request, OnLoginSuccess, OnError);
     }
@@ -82,32 +86,35 @@ public class PlayFabManager : MonoBehaviour
     {
         messageText.text = "Logged in";
         Debug.Log("login/creazione account avvenuta con successo!");
-        
+       // string name = null;
+        //if(result.InfoResultPayload.PlayerProfile !=null)
+         //   name = result.InfoResultPayload.PlayerProfile.DisplayName;
     }
     void OnError(PlayFabError error)
     {
         Debug.Log("errore login/creazione account avvenuta con successo!");
-        Debug.Log(error.GenerateErrorReport());
+       // Debug.Log(error.GenerateErrorReport());
         messageText.text = error.ErrorMessage;
     }
 
-    public void SendLeaderboard(int score)
-    {
-        var request = new UpdatePlayerStatisticsRequest
-        {
-            Statistics = new List<StatisticUpdate>
-            {
-                new StatisticUpdate
-                {
-                    StatisticName = "PlatformScore",
-                    Value = score
-                }
-            }
-        };
-        PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboradUpdate, OnError);
-    }
-    void OnLeaderboradUpdate(UpdatePlayerStatisticsResult resutl)
-    {
-        Debug.Log("Successfull Leaderboard sent");
-    }
+
+   // public void SendLeaderboard(int score)
+   // {
+    //    var request = new UpdatePlayerStatisticsRequest
+    //    {
+    //        Statistics = new List<StatisticUpdate>
+   //         {
+   //             new StatisticUpdate
+   //             {
+   //                 StatisticName = "PlatformScore",
+   //                 Value = score
+   //             }
+   //         }
+   //     };
+  //      PlayFabClientAPI.UpdatePlayerStatistics(request, OnLeaderboradUpdate, OnError);
+ //   }
+  //  void OnLeaderboradUpdate(UpdatePlayerStatisticsResult resutl)
+  //  {
+  //      Debug.Log("Successfull Leaderboard sent");
+  //  }
 }
